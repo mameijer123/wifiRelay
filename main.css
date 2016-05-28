@@ -1,7 +1,9 @@
 #formOne {
-  font-size: 25px;
+  font-size: 30px;
+  text-align: left;
 }
 
 #formTwo {
+  padding: 20px;
   font-size: 30px;
 }
