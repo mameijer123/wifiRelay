@@ -1,18 +1,20 @@
 #formOne {
-  font-size: 30px;
-  width:150 px;
+  font-size: 20px;
+  width: 350px;
 }
 
 #formTwo {
   padding: 20px;
-  font-size: 30px;
-  width: 150px;
+  font-size: 20px;
+  width: 350px;
 }
 
 #topSocket {
   background-color:red;
+  font-size:30;
 }
 
 #btmSocket {
   background-color:red;
+  font-size:30;
 }
