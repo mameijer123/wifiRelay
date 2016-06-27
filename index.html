@@ -5,7 +5,6 @@ and replace your-access-token-goes-here with your actual access token-->
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="main.css" />
-    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
   </head>
   <body>
   <center>
@@ -15,12 +14,10 @@ and replace your-access-token-goes-here with your actual access token-->
   <form action="https://api.particle.io/v1/devices/d95704000ac7959765290424/relay?access_token=9d6121ee98a7cd34b1331cf323a3eda357929bee" method="POST" id="formOne">
     <h1 id="topSocket">Top Socket</h1>
     <br>
-    <input type="checkbox" name="args" class="line" data-toggle="toggle" value="oneOn">ON
+    <input type="radio" name="args" class="line" value="oneOn">ON
     <br>
-    <input type="checkbox" name="args" class="line" data-toggle="toggle" value="oneOff">OFF
+    <input type="radio" name="args" class="line" value="oneOff">OFF
     <br>
-    <input type="checkbox" data-toggle="toggle" data-on="oneOn" data-off="oneOff">
-    <input type="checkbox" id="toggle-two">
     <br>
     <input type="submit" value="SUBMIT" class="submit">
     
@@ -37,20 +34,6 @@ and replace your-access-token-goes-here with your actual access token-->
     <input type="submit" value="SUBMIT" class="submit">
   </form>
   </div>
-  <div>
-    <ul>
-      <li value="oneOff"><a href="https://api.particle.io/v1/devices/d95704000ac7959765290424/relay?access_token=9d6121ee98a7cd34b1331cf323a3eda357929bee">OFF</a></li>
-      <li class="on" value="oneOn"><a href="https://api.particle.io/v1/devices/d95704000ac7959765290424/relay?access_token=9d6121ee98a7cd34b1331cf323a3eda357929bee">ON</a></li>
-    </ul>
-  </div>
   </center>
   </body>
 </html>
-<script>
-  $(function(){
-    $("ul li").click(function(){
-        $("ul li").removeClass("on");
-        $(this).addClass("on"); 
-    });
-  });
-</script>
