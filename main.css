@@ -4,7 +4,7 @@
   width: 350px;
   background-color:gray;
   border-radius:15px;
-  border:2px solid #d83526;
+  border:2px solid red;
 }
 
 #formTwo {
@@ -12,18 +12,24 @@
   font-size: 20px;
   width: 350px;
   background-color:gray;
+  border-radius:15px;
+  border:2px solid blue;
 }
 
 #topSocket {
   background-color:red;
   font-size:30;
   font-weight:bold;
+  border-radius:15px;
+  border:2px solid black;
 }
 
 #btmSocket {
   background-color:blue;
   font-size:30;
   font-weight:bold;
+  border-radius:15px;
+  border:2px solid black;
 }
 
 .line {
