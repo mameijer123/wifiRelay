@@ -18,6 +18,8 @@ and replace your-access-token-goes-here with your actual access token-->
     <br>
     <input type="checkbox" name="args" class="line" data-toggle="toggle" value="oneOff">OFF
     <br>
+    <input type="checkbox" data-toggle="toggle" data-on="oneOn" data-off="oneOff">
+    <input type="checkbox" id="toggle-two">
     <br>
     <input type="submit" value="SUBMIT" class="submit">
     
@@ -37,3 +39,11 @@ and replace your-access-token-goes-here with your actual access token-->
   </center>
   </body>
 </html>
+<script>
+  $(function() {
+    $('#toggle-two').bootstrapToggle({
+      on: 'oneOn',
+      off: 'oneOff'
+    });
+  })
+</script>
