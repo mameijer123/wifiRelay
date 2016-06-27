@@ -37,14 +37,20 @@ and replace your-access-token-goes-here with your actual access token-->
     <input type="submit" value="SUBMIT" class="submit">
   </form>
   </div>
+  <div>
+    <ul>
+      <li value="oneOff"><a href="https://api.particle.io/v1/devices/d95704000ac7959765290424/relay?access_token=9d6121ee98a7cd34b1331cf323a3eda357929bee">OFF</a></li>
+      <li class="on" value="oneOn"><a href="https://api.particle.io/v1/devices/d95704000ac7959765290424/relay?access_token=9d6121ee98a7cd34b1331cf323a3eda357929bee">ON</a></li>
+    </ul>
+  </div>
   </center>
   </body>
 </html>
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js">
-  $(function() {
-    $('#toggle-two').bootstrapToggle({
-      on: 'oneOn',
-      off: 'oneOff'
+<script>
+  $(function(){
+    $("ul li").click(function(){
+        $("ul li").removeClass("on");
+        $(this).addClass("on"); 
     });
-  })
+  });
 </script>
