@@ -33,7 +33,16 @@
   font-size:30;
   font-weight:bold;
   font-color:white;
-  border-radius:10px;
+  border-radius:5px;
+  border:2px solid black;
+}
+
+#tstamp {
+  background-color:#FFBF00;
+  font-size:30;
+  font-weight:bold;
+  font-color:white;
+  border-radius:5px;
   border:2px solid black;
 }
 
