@@ -28,6 +28,14 @@
   border:2px solid black;
 }
 
+#temp {
+  background-color:red;
+  font-size:30;
+  font-weight:bold;
+  border-radius:15px;
+  border:2px solid black;
+}
+
 #btmSocket {
   background-color:blue;
   font-size:30;
