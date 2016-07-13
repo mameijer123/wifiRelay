@@ -29,10 +29,11 @@
 }
 
 #temp {
-  background-color:red;
+  background-color:black;
   font-size:30;
   font-weight:bold;
-  border-radius:15px;
+  font-color:gold;
+  border-radius:10px;
   border:2px solid black;
 }
 
