@@ -35,6 +35,7 @@
   font-color:white;
   border-radius:5px;
   border:2px solid black;
+  margin:10px;
 }
 
 #tstamp {
@@ -43,6 +44,7 @@
   font-color:white;
   border-radius:5px;
   border:2px solid black;
+  margin:10px;
 }
 
 #btmSocket {
